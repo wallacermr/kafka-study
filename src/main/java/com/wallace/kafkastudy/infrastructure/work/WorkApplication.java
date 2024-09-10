@@ -1,13 +1,13 @@
-package com.wallace.kafkastudy;
+package com.wallace.kafkastudy.infrastructure.work;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaStudyApplication {
+public class WorkApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaStudyApplication.class, args);
+		SpringApplication.run(WorkApplication.class, args);
 	}
 
 }
