@@ -15,4 +15,5 @@ sleep 10
 
 echo;echo "### Starting docker images... ###";echo
 docker-compose -f $file_name --compatibility up --build -d
+sleep 10
 echo "### Imagens Docker iniciadas com sucesso ###"

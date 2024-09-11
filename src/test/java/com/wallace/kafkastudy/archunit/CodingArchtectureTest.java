@@ -35,7 +35,7 @@ import static com.tngtech.archunit.library.GeneralCodingRules.NO_CLASSES_SHOULD_
 public class CodingArchtectureTest {
 
     static final List<String> ANNOTATIONS_IGNORED = List.of("Scheduled", "Listener");
-    static final List<String> NAME_IGNORED = List.of("Mapper", "Consumer", "MapperImpl", "UseCase", "Impl");
+    static final List<String> NAME_IGNORED = List.of("Mapper", "Listener", "MapperImpl", "UseCase", "Impl");
 
     @ArchTest
     private final ArchRule noClassesShouldAccessStandardStreams = NO_CLASSES_SHOULD_ACCESS_STANDARD_STREAMS;

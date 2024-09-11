@@ -6,6 +6,7 @@ docker-compose -f docker-compose.yml down
 
 echo;echo "### Limpando volumes... ###";echo
 docker volume rm docker-local_zookeeper-dev \
-                 docker-local_kafka-dev
+                 docker-local_kafka-dev \
+                 docker-local_kong-dev
 
 docker volume prune -f
